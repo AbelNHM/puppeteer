@@ -290,8 +290,8 @@ export class Puppeteer {
    * only allowed to consist of lower- and upper case latin letters.
    * @example
    * ```
-   * puppeteer.registerCustomQueryHandler('text', { ... });
-   * const aHandle = await page.$('text/...');
+   * puppeteer.registerCustomQueryHandler('text', { … });
+   * const aHandle = await page.$('text/…');
    * ```
    * @param name - The name that the custom query handler will be registered under.
    * @param queryHandler - The {@link CustomQueryHandler | custom query handler} to
